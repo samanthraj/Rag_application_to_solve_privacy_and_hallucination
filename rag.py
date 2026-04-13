@@ -99,7 +99,7 @@ ragretriever = RAGRetriever(collection, embedding_manager)
 # 🔹 LLM (FIXED WITH KEY)
 # =========================
 llm = ChatGroq(
-    api_key="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",
+    api_key="yourapikey",
     model="llama-3.3-70b-versatile",
     temperature=0.1,
     max_tokens=1024
